@@ -30,7 +30,7 @@ Una vez conectado al servidor genera las llaves publica y privada mediante el co
 
 Esto habrá generado un par de claves publica-privada en el directorio actual. Escribiendo `ls -l` podrás visualizar una lista de los archivos.
 
-![Clave pública y privada](images/doc10/doc10-claves-publica-y-privada.png | width=100)
+![Clave pública y privada](images/doc10/doc10-claves-publica-y-privada.png width=100)
 
 Ejecuta el comando **`cat`** seguido del nombre del archivo de la clave pública para mostrar su contenido, o abre el archivo con un editor como `nano`. Copia el contenido para llevarlo a [GitHub](https://github.com).
 
