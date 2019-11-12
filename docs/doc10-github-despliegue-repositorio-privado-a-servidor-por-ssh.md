@@ -10,8 +10,9 @@ Estos son los pasos a seguir:
 ### 1. En nuestro servidor
 Para conocer los **datos de acceso SSH** del servidor en GUEBS debes accede al **panel de control** de GUEBS Haz click ahí:
    
+
 <img src="images/doc10/doc10-panel-de-control-guebs.png" width="100%" />
-    
+
 Copia los datos de conexión:
    
 <img src="images/doc10/doc10-panel-de-contro-datos-de-acceso-ssh.png" width="100%" />
