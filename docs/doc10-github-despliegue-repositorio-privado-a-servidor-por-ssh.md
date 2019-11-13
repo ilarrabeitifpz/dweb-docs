@@ -11,11 +11,10 @@ Estos son los pasos a seguir:
 Para conocer los **datos de acceso SSH** del servidor en GUEBS debes accede al **panel de control** de GUEBS Haz click ahí:
    
 ![](images/doc10/doc10-panel-de-control-guebs.png)
-[//]: # (<img src="images/doc10/doc10-panel-de-control-guebs.png" width="100%" />)
 
 Copia los datos de conexión:
-   
-<img src="images/doc10/doc10-panel-de-contro-datos-de-acceso-ssh.png" width="100%" />
+
+![](images/doc10/doc10-panel-de-contro-datos-de-acceso-ssh.png)
 
 Si no recuerdas la contraseña del usuario SSH puedes poner una nueva pulsando en `Definir contraseña`
 
@@ -27,26 +26,26 @@ Te pedirá la contraseña.
 
 Una vez conectado al servidor genera las llaves publica y privada mediante el comando `ssh-keygen`. Ponle un **nombre al archivo** pero y no escribas nada cuando te pida la `passphrase`, solamente pulsa Enter.
 
-<img src="images/doc10/doc10-conectarse-al-servidor-por-ssh.png" width="100%" />
+![](images/doc10/doc10-conectarse-al-servidor-por-ssh.png)
 
 Esto habrá generado un par de claves publica-privada en el directorio actual. Escribiendo `ls -l` podrás visualizar una lista de los archivos.
 
-<img src="images/doc10/doc10-claves-publica-y-privada.png" width="100%" />
+![](images/doc10/doc10-claves-publica-y-privada.png)
 
 Ejecuta el comando **`cat`** seguido del nombre del archivo de la clave pública para mostrar su contenido, o abre el archivo con un editor como `nano`. Copia el contenido para llevarlo a [GitHub](https://github.com).
 
 ### 2. En GitHub
 Accede a tu cuenta de GitHub *(con el usuario que te permita ver ese repositorio privado al que intentamos acceder)* y accede a `settings` en el icono de tu perfil.
 
-<img src="images/doc10/doc10-github-settings.png" width="100%" />
+![](images/doc10/doc10-github-settings.png)
 
 Después pulsa en la subsección `SSH and GPG keys` y en el apartado **SSH keys** pulsa el botón **New SSH key**
 
-<img src="images/doc10/doc10-github-new-ssh-key.png" width="100%" />
+![](images/doc10/doc10-github-new-ssh-key.png)
 
 Y añade la clave publica del servidor que has copiado desde el terminal.
 
-<img src="images/doc10/doc10-github-anadir-clave-publica.png" width="100%" />
+![](images/doc10/doc10-github-anadir-clave-publica.png)
 
 
 ## Crear Script que haga el despliegue en el servidor GUEBS
