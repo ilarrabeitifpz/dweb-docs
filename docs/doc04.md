@@ -2,6 +2,7 @@
 
 1. Generar las llaves desde la parte del cliente:
 Primero entras en el CMD de tu ordenador y escribes el comando `ssh-keygen`
+
 ![](images/doc4/doc_4_Windows10_keygen.jpg)
 
 
