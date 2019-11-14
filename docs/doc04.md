@@ -8,7 +8,7 @@ Primero entras en el CMD de tu ordenador y escribes el comando `ssh-keygen`
 
 2. Subir la llave publica al servidor
 
-  *Es recomendable instalar [Link a wingw10](http://mingw-w64.org/doku.php)*
+  *Es recomendable instalar WingW10 para realizar algunas partes, con comandos de ubuntu en windows. Adjunto enlace de descarga [Link a wingw10](http://mingw-w64.org/doku.php)*
 
 
 3. Cambias el nombre de la llave publica a authorized_keys
