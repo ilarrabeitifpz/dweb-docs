@@ -39,7 +39,7 @@ chmod 0775 post-receive
 ```
 
 <!---parte de Iñaki---->
-al crear en el hook lo primero que tendremos que hacer es crear lo siguiente:
+al crear el hook lo primero que tendremos que hacer es crear lo siguiente:
 1.  Un script llamado deploy.sh que haga el git pull
 2. Un PHP llamado deploy.php que ejecute dicho script
 
