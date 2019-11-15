@@ -7,6 +7,32 @@ al crear en el hook lo primero que tendremos que hacer es crear lo siguiente:
 
 En el deploy.sh estará escrito lo siguiente:
 
+*Nota: en este caso como ejemplo usaré __dosfpz19__ como nombre del dominio*
+```bash
 
+cd /home/dosfpz19/repo
+
+rm -Rf nombreProyecto
+
+git clone -b master [link del repositorio]
+
+rm -Rf /home/dosfpz19/www/*
+
+cp -rf nombreProyecto/* ../www
+```
+
+basicamente este script lo que hace es meterse en la carpeta repo y borrar todo el repositorio del proyecto para volver a clonarlo desde el git.
+
+a continuacion crearemos el php que ejecutará dicho script:
+
+```php
+<?php
+
+exec('./deploy.sh');
+
+?>
+```
+
+El deploy.php solo se encarga de ejecutar el deploy, de ahi que solo sea una linea
 
 
