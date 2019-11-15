@@ -3,7 +3,7 @@
 1. Montar Ubuntu Server en Maquina virtual con SSH habilitado.	
 2. Implementar Servidor Apache y definir VirtualHosts para distintos proyectos.
 3. Conectarse mediante SSH a servidores.
-4. Generar claves publica-privada y configurar servidor para conexión remota SSH sin contraseña.
+4. [Generar claves publica-privada y configurar servidor para conexión remota SSH sin contraseña.](docs/doc04.md)
 5. Usar comando SCP para copiar archivos a un servidor.
 6. Crear usuarios FTP en servidor y usar cliente FTP para subir archivos.
 7. Instalar Git y crear repositorio en servidor. Acceder a este repositorio desde cliente.

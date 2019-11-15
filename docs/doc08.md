@@ -1,3 +1,4 @@
+
 # Como crear un HOOK para habilitar un despliegue automatico 
 
 <!---parte de Iñaki---->
@@ -36,3 +37,10 @@ exec('./deploy.sh');
 El deploy.php solo se encarga de ejecutar el deploy, de ahi que solo sea una linea
 
 
+<!-- BOGDDAN -->
+#####No tengo muy calro como empezar  :D
+#Desplaegar un Web-Hook 
+
+* Item 1: Después de crear el repositorio en Git-Hub hay que irse a la configuración del repositorio:
+
+![Repositorio Configuraciones](images/doc8/Screenshot_1.png)
