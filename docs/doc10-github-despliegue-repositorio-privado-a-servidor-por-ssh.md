@@ -48,5 +48,28 @@ Y añade la clave publica del servidor que has copiado desde el terminal.
 ![](images/doc10/doc10-github-anadir-clave-publica.png)
 
 
-## Crear Script que haga el despliegue en el servidor GUEBS
+## Crear WebHook para el despliegue en el servidor GUEBS
 
+Accede al repositorio de GitHub que quieras usar para el despliegue.
+
+Dentro del repositorio entra a `Settings` y `WebHooks`.
+
+![](images/doc10/doc10-github-webhooks-1.png)
+
+Haz click en `Add Webhook` y te pedira tu contraseña.
+
+En esta nueva ventana apareceran diferentes opciones.
+
+En `Payload URL` introduce la url que ejecutara el script.
+En `Content Type` elige **application/json**.
+Secret se quedara vacio.
+`SSL verification` dejalo activado.
+En el evento elige que solo tenga efecto cuando haga *push*.
+
+![](images/doc10/doc10-github-webhooks-2.png)
+
+Una vez todo este relleno haz click en `Add webhook`, recargara la pagina y te mostrara el webhook que has creado.
+
+![](images/doc10/doc10-github-webhooks-3.png)
+
+## Crear Script que haga el despliegue en el servidor GUEBS
