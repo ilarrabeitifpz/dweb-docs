@@ -50,3 +50,20 @@
         * Enable file system caching
         * Enable Git Credential Manager
     ![GitHub Logo](images/doc07/Git-Cliente/git-set-up-extra-options.PNG)
+
+* **Crea un espacio de trabajo para el proyecto DWEB**
+    * Abre el terminal (MINGW) en tu espacio de trabajo.
+        ![GitHub Logo](images/doc07/Git-Servidor/git-clone-git-bash.PNG)
+        ![GitHub Logo](images/doc07/Git-Servidor/git-bash-here.PNG)
+    <br>
+    * Haz un clon de tu repositorio: git clone (usuario)@(ip)):/home/(usuario)/repo/dweb.git
+        ![GitHub Logo](images/doc07/Git-Servidor/git-cloned.PNG)
+    <br>
+    * Crea un contenido (index.html) para tu proyecto y (usando comandos de Git) súbelo al repositorio
+        ![GitHub Logo](images/doc07/Git-Servidor/index-html.PNG)
+    * Configura tu usuario A NIVEL DE REPOSITORIO con git config --local user.name "User".... etc...
+        ![GitHub Logo](images/doc07/Git-Servidor/git-cofig-usuario.PNG)
+
+
+    
+
