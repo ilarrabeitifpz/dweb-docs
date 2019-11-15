@@ -54,6 +54,7 @@
 * **Crea un espacio de trabajo para el proyecto DWEB**
     * Abre el terminal (MINGW) en tu espacio de trabajo.
         ![GitHub Logo](images/doc07/Git-Servidor/git-clone-git-bash.PNG)
+    <br>
         ![GitHub Logo](images/doc07/Git-Servidor/git-bash-here.PNG)
     <br>
     * Haz un clon de tu repositorio: git clone (usuario)@(ip)):/home/(usuario)/repo/dweb.git
