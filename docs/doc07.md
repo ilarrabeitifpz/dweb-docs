@@ -5,7 +5,7 @@
 * **Instala Git**
     * *Comprobar si está instalado ya*
     ![GitHub Logo](images/doc07/Git-Servidor/git-version.PNG)
-    <br>
+    
     * *Crea un nuevo repositorio llamado dweb (en tu home)*
         * mkdir repo 
         * cd repo
@@ -33,19 +33,19 @@
 * **Descargar e instalar MING**
     * *Editor: Nano*
     ![GitHub Logo](images/doc07/Git-Cliente/git-set-up-editor.PNG)
-    <br>
+    
     * *PATH:  Git from the command line*
     ![GitHub Logo](images/doc07/Git-Cliente/git-set-up-PATH.PNG)
-    <br>
+    
     * *HTTPS: OpenSSL*
     ![GitHub Logo](images/doc07/Git-Cliente/git-set-up-HTTPS.PNG)
-    <br>
+    
     * *Line endings: commit Unix-style*
     ![GitHub Logo](images/doc07/Git-Cliente/git-set-up-line-ending.PNG)
-    <br>
+   
     * *Terminal emulator: MinTTY*
     ![GitHub Logo](images/doc07/Git-Cliente/git-set-up-terminal.PNG)
-    <br>
+    
     * Extra Options:
         * Enable file system caching
         * Enable Git Credential Manager
@@ -54,12 +54,12 @@
 * **Crea un espacio de trabajo para el proyecto DWEB**
     * Abre el terminal (MINGW) en tu espacio de trabajo.
         ![GitHub Logo](images/doc07/Git-Servidor/git-clone-git-bash.PNG)
-    <br>
-        ![GitHub Logo](images/doc07/Git-Servidor/git-bash-here.PNG)
-    <br>
+    
+    ![GitHub Logo](images/doc07/Git-Servidor/git-bash-here.PNG)
+    
     * Haz un clon de tu repositorio: git clone (usuario)@(ip)):/home/(usuario)/repo/dweb.git
         ![GitHub Logo](images/doc07/Git-Servidor/git-cloned.PNG)
-    <br>
+    
     * Crea un contenido (index.html) para tu proyecto y (usando comandos de Git) súbelo al repositorio
         ![GitHub Logo](images/doc07/Git-Servidor/index-html.PNG)
     * Configura tu usuario A NIVEL DE REPOSITORIO con git config --local user.name "User".... etc...
