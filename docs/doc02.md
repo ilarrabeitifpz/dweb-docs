@@ -1,10 +1,10 @@
 # 2. Implementar Servidor Apache y definir VirtualHosts para distintos proyectos.
 
-Estos son los pasos a seguir:
-
-- [Instalar Apache](#instalar-apache)
-- [Configurar Virtual Hosts de Apache](#configurar-virtual-hosts-de-apache)
-
-## Instalar Apache
-
-## Configurar Virtual Hosts de Apache
+1. Primero ejecutamos el comando **sudo apt update** para actualizar el índice de los paquetes locales :
+```
+sudo apt update
+```
+   Y después instalamos el paquete `apache2` ejecutando el siguiente comando :
+```
+sudo apt install apache2
+```
