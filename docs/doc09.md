@@ -6,7 +6,7 @@
 
 Antes de nada, tendremos que iniciar sesión con un usuario git config --global
 
-###Iniciar repositorio
+### Iniciar repositorio
 
 Cuando empezamos a trabajar en github podemos hacerlo desde un repositorio creado por nosotros o desde un repositorio remoto, creado por otro usuario.
 
@@ -55,11 +55,11 @@ Una vez comparados los dos proyectos, haremos git merge para juntar lo que se ha
 ![git Merge](images/doc09/GitMerge.png)
 
 Para poder subir todo lo que tenemos en la rama master de nuestro repositorio local, tendremos que utilizar el comando "push" en el terminal, pero antes que nada, vamos a traer todo lo que haya en el repositorio remoto a nuestro repositorio local para no borrar los cambios que han hecho nuestros compañeros. Para eso, utilizaremos el comando pull en el terminal
-##### pull
+**pull**
 
 ![git Merge](images/doc09/pull.png)
 
-##### push
+**push**
 
 ![git Merge](images/doc09/push.png)
 
@@ -76,10 +76,40 @@ Hay tantos comandos diferentes que puedes utilizar con el log... aquí tienes un
 
 ![git Merge](images/doc09/gitlogPretty.png)
 
-###### Poner los últimos 
+**Poner los últimos** 
 
 ![git Merge](images/doc09/gitlogMaxAcount.png)
 
+**Sacar la fecha fecha y enseñar el nombre del usuario que ha hecho el commit**
+
 ![git Merge](images/doc09/gitlogDate.png)
 
-[Más información](https://githowto.com/history)
+[Más información sobre "git log" aquí](https://githowto.com/history)
+
+Podemos ver el mensaje escrito en un commit mediante este comando:
+
+![git show](https://i.stack.imgur.com/Eluwl.png)
+
+[Más información sobre "git show" aquí](https://git-scm.com/docs/git-show)
+
+Hablando de hacer cambios, no se nos puede escapar el código "git add". Este código, se utiliza para subir los archivos cambiados al "staged"; un campo diferente al "working directory".
+
+![git show](images/doc09/staged.png)
+
+Los archivos del "staging area" son los archivos que todavía no están listos para subir al repositorio remoto (todavía no está ni en nuestro propio repositorio) y es que solamente hemos preparado los archivos para poder hacer el commit para así subirlo al repositorio local.
+
+![git add](images/doc09/gitAdd.png)
+
+Finalmente, después de subirlo al staging area, utilizaremos el comando git commit para subirlo a nuestro repositorio local para mandarlo finalmente con el push de nuestro repositorio al repositorio remoto
+
+![git commit](images/doc09/gitCommit.png)
+
+Si quisiéramos volver a un commit anterior tendríamos que utilizar el comando git reset y el nombre del comando
+
+![git commit](images/doc09/gitReset.png)
+
+Y si quisieramos eliminar todos los cambios hecho posteriormente a ese commit tendríamos que sumarle "--hard al comando
+
+![git commit](images/doc09/hard.png)
+
+**PRECAUCIÓN: Borrar el historial de commits puede tener efectos negativos. Te recomendamos utilizar el comando remote con cuidado y si lo haces no lo hagas sin consultar foros de usuarios más preparados**
