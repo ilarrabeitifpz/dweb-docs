@@ -1,4 +1,4 @@
-1|2|3
+1 | 2 | 3
 # Conocimientos a adquirir en la asignatura de Despliegue de Aplicaciones Web
 
 1. [Montar Ubuntu Server en Maquina virtual con SSH habilitado.](docs/doc01.md)
