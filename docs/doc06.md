@@ -8,7 +8,7 @@ En esta guia aprendereis a crear usuarios FTP y a gestionar archivos en el servi
 Para poder empezar necesitaremos un usuario que tenga acceso al servidor, para ello iremos al apartado de " *Cuentas FTP* ". 
 En el encontraremos unos campos que tendremos que rellenar para crear el usuario.
 
->**Es recomendable ir guardando estos datos en un fichero para tenerlos en caso de emergencia**
+>**Es recomendable ir guardando estos datos en un fichero para tenerlos en caso de emergencia.**
 
 
 ![Imagen de creacion de usuario](images/doc06/CrearUsuario.PNG)
@@ -29,13 +29,26 @@ Bastara con hacer click en el link de *Datos de conexión* y se nos abrira una p
 
 Para poder conectarnos con el usuario que acabamos de crear , descargaremos un programa gratuito llamado " *WIN SCP* ". Basta con dar click [aqui](https://winscp.net/eng/download.php) y automaticamente te llevara a la pagina oficial para que puedas descargar el programa.
 
-<center>![Imagen de la descarga de Win SCP](images/doc06/DescargaWinSCP.PNG) </center>
+![Imagen de la descarga de Win SCP](images/doc06/DescargaWinSCP.PNG)
 
 Una vez teniendo el instalador descargado, lo ejecutaremos y bastara con darle en el boton siguiente hasta terminar la instalacion, no hace falta modificar nada en la instalacion.
 
-![Imagen de como se termina la instalacion de Win SCP]( images/doc06/TerminarInstalacion.PNG)
+![Imagen de como se termina la instalacion de Win SCP](images/doc06/TerminarInstalacion.PNG)
 
 
 ## 3.-Ejecutar Programa y guardar Sesion :globe_with_meridians:
 
-Una vez tenieno el programa instalado, lo primero que haremos es ejecutarlo para poder conectarnos al servidor.
+Una vez tenieno el programa instalado, lo primero que haremos es ejecutarlo para poder conectarnos al servidor. Una vez dentro el programa nos pedira que iniciemos sesion, para ello insertaremos los datos del servidor y del usuario que acabamos de crear.
+
+![Imagen de los campos que te pide Win SCP al abrir](images/doc06/SesionWinSCP.PNG)
+
+ 
+>**Es recomendable guardar la sesion del usuario para no tener que estar introduciendo estos datos cada vez que quieras conectarte. Para poder guardar la sesion basta con hacer click en el boton de guardar.**
+
+
+
+![Imagen de como se ven los datos metidos en el login de Win SCP](images/doc06/DatosMetidosWinSCP.PNG)
+
+Una vez teniendo la sesion guardado nos conectaremos haciendo click en el boton de conectar, tras esperar unos segundos ya estaremos logueados y listos para subir archivos.
+
+![Imagen de como se ve la sesion logueada ya](images/doc06/SesionLogueada.PNG)

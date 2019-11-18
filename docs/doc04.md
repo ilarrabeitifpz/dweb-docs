@@ -38,6 +38,6 @@ Este sera el resultado.
 
 ![](images/doc4/doc_4_authorized_keys.png)
 
-4. Le das permisos de lectura y escritura a la llave publica creada en el servidor
+Si lo hemos hecho todo bien cuando nos conectemos al servidor no nos pedira la contraseña:
 
-  ![](images/doc4/doc_4_)
+  ![](images/doc4/doc_4_comprobacion.png)
