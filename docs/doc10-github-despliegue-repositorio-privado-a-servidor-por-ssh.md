@@ -48,5 +48,46 @@ Y añade la clave publica del servidor que has copiado desde el terminal.
 ![](images/doc10/doc10-github-anadir-clave-publica.png)
 
 
-## Crear Script que haga el despliegue en el servidor GUEBS
+## Crear WebHook para el despliegue en el servidor GUEBS
 
+Accede al repositorio de GitHub que quieras usar para el despliegue.
+
+Dentro del repositorio entra a `Settings` y `WebHooks`.
+
+![](images/doc10/doc10-github-webhooks-1.png)
+
+Haz click en `Add Webhook` y te pedira tu contraseña.
+
+En esta nueva ventana apareceran diferentes opciones.
+
+En `Payload URL` introduce la url que ejecutara el script.
+En `Content Type` elige **application/json**.
+Secret se quedara vacio.
+`SSL verification` dejalo activado.
+En el evento elige que solo tenga efecto cuando haga *push*.
+
+![](images/doc10/doc10-github-webhooks-2.png)
+
+Una vez todo este relleno haz click en `Add webhook`, recargara la pagina y te mostrara el webhook que has creado.
+
+![](images/doc10/doc10-github-webhooks-3.png)
+
+## Crear una un sub-dominio GIT para tener un espacio tipo git.{grupo}.fpz1920.com desde el panel de control del servidor.
+
+Accede al panel de control de [Guebs](https://www.gestionservicios.online/login) con tu usuario.
+
+Una vez dentro entra en la sección de subdominios.
+
+![](images/doc10/doc10-panel-de-control-guebs-subdominio.png)
+
+Al entrar en subdominios veremos un input donde añadiremos el nombre del subdominio **unicamente el nombre que ira por delante de nuestro dominio**. 
+
+Cuando tengamos el nombre del subdominio elegido clickaremos en `Crear subdominio`.
+
+![](images/doc10/doc10-panel-de-control-guebs-crear-subdominio.png)
+
+Finalmente podremos ver nuestros subdominios un poco más abajo.
+
+![](images/doc10/doc10-panel-de-control-guebs-subdominios-configurados.png)
+
+## Crear Script que haga el despliegue en el servidor GUEBS
