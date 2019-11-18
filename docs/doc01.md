@@ -1,4 +1,4 @@
-#Montar Ubuntu Server en Maquina virtual con SSH habilitado.
+# 1. Montar Ubuntu Server en Maquina virtual con SSH habilitado.
 
 1. **Descargar [Virtual Box](https://www.virtualbox.org/).**
 2. **Descargar [Ubuntu Server](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso)(16.04.6).**
