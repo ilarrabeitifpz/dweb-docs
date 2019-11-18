@@ -18,3 +18,8 @@ sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-availab
 sudo nano /etc/apache2/sites-available/xabier1.io.conf
 ```
 ![](images/doc02/doc02-definir-virtual-host.PNG)
+
+3. Después habilitamos el archivo Virtual Host utilizando la herramienta `a2ensite` :
+```
+sudo a2ensite xabier1.io.conf
+```
