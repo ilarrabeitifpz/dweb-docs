@@ -128,7 +128,7 @@ Para crear el `deploy.sh` seguiremos de nuevo los pasos de antes para crear un a
 
 ![](images/doc10/doc10-crear-archivos.png)
 
-El script `deploy.sh`contendra el siguiente codigo:
+El script `deploy.sh`contendra el siguiente codigo *(los nombres de las carpetas y el link del clone son diferentes para cada caso)*:
 
 ![](images/doc10/doc10-crear-deploysh.png)
 
