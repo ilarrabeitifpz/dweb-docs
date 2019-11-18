@@ -1,4 +1,19 @@
+# 1. Cómo usar SSH para conectarse a un servidor remoto en Ubuntu
 
+### 1.1 Instalación de OpenSSH
+Hay que instalar el OpenSSH para utilizar SSH
+
+Usar este comando para instalarlo:
+![](images/doc5/doc5_comando_ssh_instalacion.png)
+### 1.2 Conectar por control remoto con SSH
+
+para iniciar sesión de forma segura en sistemas remotos la forma basica del comando es:
+
+![](images/doc5/doc5_comando_ssh_basica.png)
+
+Si su nombre de usuario es diferente en el sistema remoto, puede especificarlo utilizando esta sintaxis:
+
+![](images/doc5/doc5_comando_ssh_especifica.png)
 
 fin
 
@@ -6,7 +21,7 @@ fin
 
 2. Usar el comando scp para copiar archivos a un servidor.
 
-##2. ESTRUCTURA DEL COMANDO SCP PARA COPIAR ARCHIVOS
+## 2. ESTRUCTURA DEL COMANDO SCP PARA COPIAR ARCHIVOS
 
  ![](images/doc5/doc5_comando_scp_part1.png)![](images/doc5/doc5_comando_scp_part2.png)
 
@@ -16,7 +31,7 @@ fin
 - [destination username@IP] -> Es el usuario y la IP de a donde quieres copiar el archivo (por ejemplo, del servidor).
 - [destination directory] -> Es el sitio donde quieras dejar la copia hecha por el comando.
 
-####Opciones que existen para las modificaciones por el comando SCP
+#### Opciones que existen para las modificaciones por el comando SCP
 
 - -P port nos permite especificar una entrada diferente al servidor.
 
@@ -36,7 +51,7 @@ fin
 
 ## EJEMPLOS DE COPIAS DE ARCHIVOS CON EL COMANDO SCP
 
-####Archivo local a una ubicación remota
+#### Archivo local a una ubicación remota
 
 ![](images/doc5/doc5_comando_scp_local_remoto.png)
 
@@ -44,11 +59,11 @@ fin
 
 ![](images/doc5/doc5_comando_scp_local_remoto_cambiar_nombre.png)
 
-####Archivo remoto a máquina local
+#### Archivo remoto a máquina local
 
 ![](images/doc5/doc5_comando_scp_remoto_maquina_local.png)
 
-####Archivo remoto a otra ubicación remota
+#### Archivo remoto a otra ubicación remota
 
  - En este caso deberás ingresar las contraseñas una vez ejecutado el comando.
  
