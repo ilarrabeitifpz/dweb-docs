@@ -8,3 +8,4 @@ sudo apt update
 ```
 sudo apt install apache2
 ```
+![](images/doc02/doc02-apache2.png)
