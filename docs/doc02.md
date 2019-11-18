@@ -17,4 +17,4 @@ sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-availab
 
 sudo nano /etc/apache2/sites-available/xabier1.io.conf
 ```
-![](images/doc02/doc02-definir-virtual-host.png)
+![](images/doc02/doc02-definir-virtual-host.PNG)
