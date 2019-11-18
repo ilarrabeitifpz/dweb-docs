@@ -24,3 +24,8 @@ sudo nano /etc/apache2/sites-available/xabier1.io.conf
 sudo a2ensite xabier1.io.conf
 ```
 ![](images/doc02/doc02-a2ensite.PNG)
+
+Y reiniciamos Apache para que se guarden los cambios :
+```
+sudo systemctl restart apache2
+```
