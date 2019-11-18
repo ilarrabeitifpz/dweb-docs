@@ -17,7 +17,7 @@ Para conectarnos mediante SSH a una máquina remota simplemente tendremos que es
 
     ssh [<usuario>@]<hostname>[:<puerto>]
 
-![](images/doc03/doc03-ssh.png)
+![](images/doc03/doc03-ssh.PNG)
 
 **Usuario**: Tiene que ser un nombre de usuario válido en la máquina remota.
 
