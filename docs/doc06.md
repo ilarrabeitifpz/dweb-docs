@@ -48,3 +48,7 @@ Una vez tenieno el programa instalado, lo primero que haremos es ejecutarlo para
 
 
 ![Imagen de como se ven los datos metidos en el login de Win SCP](images/doc06/DatosMetidosWinSCP.PNG)
+
+Una vez teniendo la sesion guardado nos conectaremos haciendo click en el boton de conectar, tras esperar unos segundos ya estaremos logueados y listos para subir archivos.
+
+![Imagen de como se ve la sesion logueada ya](images/doc06/SesionLogueada.PNG)
