@@ -90,4 +90,59 @@ Finalmente podremos ver nuestros subdominios un poco más abajo.
 
 ![](images/doc10/doc10-panel-de-control-guebs-subdominios-configurados.png)
 
+## Crear un archivo deploy.php en el site /home/<usuario>/sites/git.{grupo}.fpz1920.com/ que ejecute el script `deploy.sh`
+
+En el buscador de Windows buscaremos `WinSCP` para conectarnos mediante ftp a nuestro dominio.
+
+![](images/doc10/doc10-buscar-winscp.png)
+
+Para conectarnos a nuestro servidor pondremos los datos como aparece en la imagen *(cada uno tendra unos datos pero la estructura de ellas es la misma)*.
+
+![](images/doc10/doc10-conectarse-a-winscp.png)
+
+Una vez estemos en el servidor entraremos en la carpeta *sites*.
+
+![](images/doc10/doc10-winscp-sites.png)
+
+A su vez, dentro de la carpeta *sites* entraremos en el subdominio creado anteriormente para el *git*.
+
+![](images/doc10/doc10-winscp-subdominio.png)
+
+Aquí es donde crearemos el archipo `deploy.php` que ejecutara el script `deploy.sh` que también estara en este subdominio.
+
+Para crear los archivos haremos click derecho dentro del subdominio elegiremos *nuevo* y después *archivo*.
+
+![](images/doc10/doc10-crear-archivos.png)
+
+En el archivo `deploy.php` escribiremos lo siguiente:
+
+![](images/doc10/doc10-crear-deployphp.png)
+
+Una vez creado lo veremos dentro del subdominio.
+
+![](images/doc10/doc10-winscp-deployphp.png)
+
 ## Crear Script que haga el despliegue en el servidor GUEBS
+
+Para crear el `deploy.sh` seguiremos de nuevo los pasos de antes para crear un archivo.
+
+![](images/doc10/doc10-crear-archivos.png)
+
+El script `deploy.sh`contendra el siguiente codigo:
+
+![](images/doc10/doc10-crear-deploysh.png)
+
+Una vez creado, nuevamente podremos verlo en el subdominio.
+
+![](images/doc10/doc10-winscp-deploysh.png)
+
+Finalmente, es hora de darle los permisos adecuados al scrip, en este caso los permisos son:
+## 755
+
+Para ello haremos click derecho sobre el archivo `deploy.sh` y clickaremos sobre *propiedades*.
+
+![](images/doc10/doc10-winscp-deploysh-propiedades.png)
+
+Al entrar en propiedades excogeremos los permisos de la siguiente manera *(también puedes escribir el codigo en la parte de octal)*:
+
+![](images/doc10/doc10-winscp-deploysh-permisos.png)
