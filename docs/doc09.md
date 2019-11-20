@@ -24,7 +24,7 @@ Las ramas son una de las partes más importantes del trabajo, es el lugar en el 
 
 Para crear estas ramas, tenemos que escribir el comando:
 
-![Git branch-name](images/doc09/branch-name.PNG)
+![Git branch-name](images/doc09/Branch-name.PNG)
 
 Una vez creada la rama, tendremos que entrar en esa rama con el comando siguiente
 
@@ -48,7 +48,7 @@ Antes de subir los cambios de una rama, tendremos que comparar ambos proyectos (
 
 En el caso de que queramos comparar dos ramas usaremos este otro comando:
 
-![Git diff](images/doc09/diff.png)
+![Git diff](images/doc09/diff.PNG)
 
 Una vez comparados los dos proyectos, haremos git merge para juntar lo que se ha hecho en la rama con el proyecto.
 
