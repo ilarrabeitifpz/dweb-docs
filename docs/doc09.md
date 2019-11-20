@@ -2,7 +2,7 @@
 
 ### Inicio
 
-![Git config --global](images/doc09/Config.png)
+![Git config --global](images/doc09/Config.PNG)
 
 Antes de nada, tendremos que iniciar sesión con un usuario git config --global
 
@@ -12,11 +12,11 @@ Cuando empezamos a trabajar en github podemos hacerlo desde un repositorio cread
 
 En el caso de que queramos trabajar desde un repositorio nuestro tendremos que crearlo mediante el código:
 
-![Git config --global](images/doc09/init.png)
+![Git config --global](images/doc09/init.PNG)
 
 La otra opción es trabajar en otro repositorio. Mediante el git clone, pasará todo lo que haya en el repositorio a nuestra carpeta.
 
-![Git clone](images/doc09/clone.png)
+![Git clone](images/doc09/clone.PNG)
 
 ### Ramas
 
@@ -24,19 +24,19 @@ Las ramas son una de las partes más importantes del trabajo, es el lugar en el 
 
 Para crear estas ramas, tenemos que escribir el comando:
 
-![Git branch-name](images/doc09/branch-name.png)
+![Git branch-name](images/doc09/branch-name.PNG)
 
 Una vez creada la rama, tendremos que entrar en esa rama con el comando siguiente
 
-![Git checkout](images/doc09/checkout.png)
+![Git checkout](images/doc09/checkout.PNG)
 
 una vez entrado en la rama y hayamos terminado el trabajo o hayamos avanzado mucho, la rama hace push y el master mediante 
 
-![Git merge](images/doc09/merge.png)
+![Git merge](images/doc09/merge.PNG)
 
 En cuanto hayamos subido los cambios borraremos la rama con el comando
 
-![Git -d](images/doc09/delete.png)
+![Git -d](images/doc09/delete.PNG)
 
 ### Sincronizar cambios
 
@@ -44,7 +44,7 @@ Estos comandos son los comandos que utilizaremos para poder sincronizar nuestro 
 
 Antes de subir los cambios de una rama, tendremos que comparar ambos proyectos (el del github y el de la rama) para ver si podría crear conflictos los cambios de la rama
 
-![Git fetch](images/doc09/fetch.png)
+![Git fetch](images/doc09/fetch.PNG)
 
 En el caso de que queramos comparar dos ramas usaremos este otro comando:
 
@@ -52,16 +52,16 @@ En el caso de que queramos comparar dos ramas usaremos este otro comando:
 
 Una vez comparados los dos proyectos, haremos git merge para juntar lo que se ha hecho en la rama con el proyecto.
 
-![git Merge](images/doc09/GitMerge.png)
+![git Merge](images/doc09/GitMerge.PNG)
 
 Para poder subir todo lo que tenemos en la rama master de nuestro repositorio local, tendremos que utilizar el comando "push" en el terminal, pero antes que nada, vamos a traer todo lo que haya en el repositorio remoto a nuestro repositorio local para no borrar los cambios que han hecho nuestros compañeros. Para eso, utilizaremos el comando pull en el terminal
 **pull**
 
-![git Merge](images/doc09/pull.png)
+![git Merge](images/doc09/Pull.PNG)
 
 **push**
 
-![git Merge](images/doc09/push.png)
+![git Merge](images/doc09/push.PNG)
 
 ### Hacer cambios
 
@@ -69,20 +69,20 @@ Para poder subir nuestros cambios tendremos que utilizar el comando "commit". Me
 
 Al igual que tú haces tus cambios, tus compañeros también lo pueden hacer; por eso, git te da la posibilidad de ver los commits que habéis subido al repositorio de gitHub.
 
-![git Merge](images/doc09/gitlog.png)
+![git Merge](images/doc09/gitlog.PNG)
 
 Hay tantos comandos diferentes que puedes utilizar con el log... aquí tienes unos cuantos útiles
 
 
-![git Merge](images/doc09/gitlogPretty.png)
+![git Merge](images/doc09/gitLogPretty.PNG)
 
 **Poner los últimos** 
 
-![git Merge](images/doc09/gitlogMaxAcount.png)
+![git Merge](images/doc09/gitLogMaxAcount.PNG)
 
 **Sacar la fecha fecha y enseñar el nombre del usuario que ha hecho el commit**
 
-![git Merge](images/doc09/gitlogDate.png)
+![git Merge](images/doc09/gitLogDate.PNG)
 
 [Más información sobre "git log" aquí](https://githowto.com/history)
 
@@ -98,18 +98,18 @@ Hablando de hacer cambios, no se nos puede escapar el código "git add". Este c�
 
 Los archivos del "staging area" son los archivos que todavía no están listos para subir al repositorio remoto (todavía no está ni en nuestro propio repositorio) y es que solamente hemos preparado los archivos para poder hacer el commit para así subirlo al repositorio local.
 
-![git add](images/doc09/gitAdd.png)
+![git add](images/doc09/gitAdd.PNG)
 
 Finalmente, después de subirlo al staging area, utilizaremos el comando git commit para subirlo a nuestro repositorio local para mandarlo finalmente con el push de nuestro repositorio al repositorio remoto
 
-![git commit](images/doc09/gitCommit.png)
+![git commit](images/doc09/gitCommit.PNG)
 
 Si quisiéramos volver a un commit anterior tendríamos que utilizar el comando git reset y el nombre del comando
 
-![git commit](images/doc09/gitReset.png)
+![git commit](images/doc09/gitReset.PNG)
 
 Y si quisieramos eliminar todos los cambios hecho posteriormente a ese commit tendríamos que sumarle "--hard al comando
 
-![git commit](images/doc09/hard.png)
+![git commit](images/doc09/hard.PNG)
 
 **PRECAUCIÓN: Borrar el historial de commits puede tener efectos negativos. Te recomendamos utilizar el comando remote con cuidado y si lo haces no lo hagas sin consultar foros de usuarios más preparados**
